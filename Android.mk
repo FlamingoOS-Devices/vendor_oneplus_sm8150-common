@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter oneplus7pro oneplus7 oneplus7tpro oneplus7t,$(TARGET_DEVICE)),)
+ifneq ($(filter oneplus7pro oneplus7proNR oneplus7 oneplus7tpro oneplus7t,$(TARGET_DEVICE)),)
 
 endif
